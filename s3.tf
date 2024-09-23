@@ -1,3 +1,8 @@
+# Declare the bucketname variable
+variable "bucketname" {
+  description = "The name of the S3 bucket"
+  type        = string
+}
 #create s3 bucket
 resource "aws_s3_bucket" "mybucket" {
   bucket = var.bucketname
