@@ -17,7 +17,7 @@ variable "ami_id" {
 variable "bucketname" {
   description = "The name of the S3 bucket"
   type        = string
-  default     = "Anji-utility-bucket1"  # Replace with your default value
+  default     = "anji-utility-bucket1"  # Replace with your default value
 }
 
 variable "acl" {
