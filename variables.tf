@@ -17,7 +17,7 @@ variable "ami_id" {
 variable "bucket_name" {
   description = "The name of the S3 bucket to create"
   type        = string
-  default     = "anju-utility1-bucket-us-east-1"
+  default     = "anju-utility-bucket-us-east-1"
 }
 
 variable "acl" {
